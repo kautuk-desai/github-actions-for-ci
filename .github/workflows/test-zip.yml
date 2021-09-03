@@ -15,7 +15,6 @@ jobs:
         with:
           files: src/
           recursive: false
-          dest: test.zip
       - uses: actions/upload-artifact@main
         with:
           name: my-artifact
