@@ -16,7 +16,7 @@ jobs:
           files: src/
           recursive: false
           dest: test.zip
-      - uses: actions/upload-artifact@v1
+      - uses: actions/upload-artifact@main
         with:
           name: my-artifact
-          path: ${{ github.workspace }}/test.zip
+          path: public/
